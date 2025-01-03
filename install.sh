@@ -1,12 +1,8 @@
 #!/bin/bash
 
-echo " ██ ███    ███ ██    ██  ██████  ███████ ██    ██ ██   ██ ██  
-██  ████  ████  ██  ██  ██    ██ ██      ██    ██ ██   ██  ██ 
-██  ██ ████ ██   ████   ██    ██ █████   ██    ██ ███████  ██ 
-██  ██  ██  ██    ██    ██    ██ ██       ██  ██  ██   ██  ██ 
- ██ ██      ██    ██     ██████  ██        ████   ██   ██ ██ "
+echo "MADE BY SOLOZIP"
 
-echo Make your own Free VPS Hosting, Dont Allow Mining
+echo Make your own Free VPS Hosting, Dont Allow Mining!
 
 read -p "Are you sure you want to proceed? Agree to not allow mining (y/n): " -n 1 -r
 echo
@@ -36,7 +32,7 @@ echo "Building Docker Image"
 sudo docker build -t ubuntu-22.04-with-tmate .
 echo Built successfully
 echo "Downloading main.py from the GitHub repository..."
-wget -O main.py https://raw.githubusercontent.com/Solokingz/VpsBotFilesLatestCheck/refs/heads/main/v3ds
+wget -O main.py https://raw.githubusercontent.com/SolokingzzZ/VPS-DC-BOT-V1-FILES/refs/heads/main/v3ds
 echo Downloaded successfully
 echo "Installing Python packages: discord and docker..."
 pip3 install discord docker
